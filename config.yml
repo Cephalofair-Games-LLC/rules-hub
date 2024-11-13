@@ -1,6 +1,6 @@
 translations:
   # first list the repos
-  - repo: english
+  - repo: rules-english
     languages:
       # then for each language
         # specify the 'language-code'

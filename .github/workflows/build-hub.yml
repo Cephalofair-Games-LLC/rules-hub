@@ -1,0 +1,20 @@
+name: "Build Hub"
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  Build-Hub:
+    environment:
+      name: github-pages
+    permissions:
+      id-token: write
+      pages: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Build Hub"
+        uses: cephalofair-games-llc/rules-actions/build-hub@v1.0
+        with:
+          pat: ${{ secrets.PAT }}

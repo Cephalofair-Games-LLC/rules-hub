@@ -1,0 +1,3 @@
+[submodule "translations/rules-english"]
+	path = translations/rules-english
+	url = https://github.com/Cephalofair-Games-LLC/rules-english.git

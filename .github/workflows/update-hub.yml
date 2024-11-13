@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "Update Hub"
-        uses: cephalofair-games-llc/rules-actions/update-hub@v1.0
+        uses: cephalofair-games-llc/rules-hub-actions/update-hub@v1.0
         with:
           source: ${{ github.event.client_payload.source }}
           author: ${{ github.event.client_payload.author }}

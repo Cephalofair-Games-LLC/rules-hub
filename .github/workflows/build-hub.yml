@@ -15,6 +15,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "Build Hub"
-        uses: cephalofair-games-llc/rules-actions/build-hub@v1.0
+        uses: cephalofair-games-llc/rules-hub-actions/build-hub@v1.0
         with:
           pat: ${{ secrets.PAT }}
